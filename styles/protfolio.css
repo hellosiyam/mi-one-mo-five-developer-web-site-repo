@@ -29,6 +29,9 @@ body{
     font-size: 35px;
     font-weight: 700;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* nav releted style */
 nav{
@@ -157,12 +160,90 @@ main{
 
 #my-skills{     
     padding: 30px 150px;
-}
-.skils-continer{
-    display: flex;
-    margin-left: 24px;
+    
 }
 .skils{
     padding: 32px;
-    box-shadow: #FFF8F3 2px 2px 8px 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+
+
+}
+.skils-continer{
+    width: 1140px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: auto; 
+}
+
+.skill-tittle{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* my resume section  */
+.section-title{
+    margin-bottom: 80px;
+}
+.resume-continer{
+    display: flex;
+    gap: 48px;
+    width: 1140px;
+    margin: auto;
+}
+.colomn-tittle{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.resume-item-tittle{
+    color:  #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+
+}
+
+.resume-item-tittle-inistute{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-item-description{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+hr{
+    background: #D1D1D1;
+}
+.download-cv{
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 120px;
+}
+
+/* footer section  */
+footer{
+    display: flex;
+    background-color: #FFF8F3;;
+    padding: 130px 200px;
 }
