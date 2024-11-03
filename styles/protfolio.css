@@ -22,6 +22,14 @@ body{
 .text-primary{
     color: hsla(25, 98%, 52%, 1);
 }
+
+.setion-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
 /* nav releted style */
 nav{
     display: flex;
@@ -54,16 +62,21 @@ nav a{
 /* Header Releted Style  */
 .head{
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 140px;
+    padding: 30px 30px 0px 140px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner-content{
     align-items: center;
+    max-width: 585px;
 }
 
 .banner .profile-pic{
@@ -72,4 +85,46 @@ nav a{
     flex-shrink: 0;
 }
 
+.gretings{
+    color:  #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
 
+}
+
+.title{
+    color:  #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* sections style  */
+
+
+/* about section styel */
+.about{
+    margin: 130px 0px;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3; 
+}
+
+.section-description{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
