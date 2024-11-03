@@ -23,7 +23,7 @@ body{
     color: hsla(25, 98%, 52%, 1);
 }
 
-.setion-title{
+.section-title{
     color:  #181818;
     text-align: center;
     font-size: 35px;
@@ -138,6 +138,7 @@ main{
 
 .about-info{
     text-align: center;
+    background-color: #FFF8F3;
 }
 
 .info-tittle{
@@ -150,4 +151,18 @@ main{
     color:  #474747;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* my skills section */
+
+#my-skills{     
+    padding: 30px 150px;
+}
+.skils-continer{
+    display: flex;
+    margin-left: 24px;
+}
+.skils{
+    padding: 32px;
+    box-shadow: #FFF8F3 2px 2px 8px 10px;
 }
