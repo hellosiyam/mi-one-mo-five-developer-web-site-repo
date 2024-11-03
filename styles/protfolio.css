@@ -80,9 +80,7 @@ nav a{
 }
 
 .banner .profile-pic{
-    width: 584px;
-    height: 676px;
-    flex-shrink: 0;
+    width: 500px;
 }
 
 .gretings{
@@ -111,14 +109,18 @@ nav a{
 }
 
 /* sections style  */
-
+main{
+    max-width: 1440px;
+    margin: auto;
+}
 
 /* about section styel */
 .about{
     margin: 130px 0px;
     padding: 130px;
     border-radius: 10px;
-    background: #FFF8F3; 
+    background: #FFF8F3;
+    
 }
 
 .section-description{
@@ -127,4 +129,25 @@ nav a{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.info-tittle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-description{
+    color:  #474747;
+    font-size: 20px;
+    font-weight: 700;
 }
